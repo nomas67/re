@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>عدد الحلقات</title>
+    <style>
+        body {
+            background-color: #000; /* اللون الأسود لخلفية الصفحة */
+            color: #fff; /* لون النص على الخلفية السوداء */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .episode {
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s; /* تأثير التحويم وتأثير الظل */
+            position: relative;
+            width: 85px;
+            height: 85px;
+            background-color: #111; /* لون الخلفية لعرض عدد الحلقات */
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 7px;
+            overflow: hidden; /* لعرض الظل بشكل مناسب */
+            box-shadow: 0 0 10px rgba(229, 9, 20, 0.7); /* تأثير الظل الافتراضي */
+        }
+
+        .episode a {
+            text-decoration: none;
+            color: #fff; /* لون الروابط */
+            display: block;
+            padding: 25px;
+        }
+
+        .episode:hover {
+            transform: scale(1.05); /* تكبير العدد عند التحويم */
+            box-shadow: 0 0 20px rgba(229, 9, 20, 0.9); /* تأثير الظل عند التحويم (أحمر شفاف) */
+        }
+
+        .episode h3 {
+            margin: 0px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 1</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 2</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 3</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 4</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 5</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 6</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 7</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 8</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 9</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 10</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 11</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 12</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 13</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 14</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 15</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 16</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 17</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 18</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 19</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 20</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 21</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 22</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 23</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 24</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 25</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 26</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 27</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 28</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 29</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 30</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 31</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 32</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 33</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 34</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 35</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 36</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 37</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 38</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 39</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 40</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 41</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 42</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 43</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 44</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 45</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 46</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 47</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 48</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 49</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 50</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 51</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 52</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 53</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 54</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 55</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 56</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 57</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 58</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode3.html">
+            <h3>الحلقة 59</h3>
+        </a>
+    </div>
+     <div class="episode">
+        <a href="episode1.html">
+            <h3>الحلقة 60</h3>
+        </a>
+    </div>
+    <div class="episode">
+        <a href="episode2.html">
+            <h3>الحلقة 61</h3>
+        </a>
+    </div>
+    <!-- يمكنك إضافة المزيد من الحلقات بنفس النمط -->
+</body>
+</html>
